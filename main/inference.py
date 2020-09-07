@@ -13,8 +13,8 @@ import sys
 
 sys.path.append(str(Path(__file__).absolute() / "../../common"))
 
-from config import cfg  # NOQA
-from model import get_model
+# from config import cfg  # NOQA
+from inter_model import get_model
 
 # from utils.vis import vis_keypoints  # NOQA
 
